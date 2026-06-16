@@ -75,8 +75,7 @@ export const Dashboard: React.FC = () => {
   const [loadingData, setLoadingData] = useState(true);
   const [actionError, setActionError] = useState<string | null>(null);
   const [generatingPdf, setGeneratingPdf] = useState(false);
-
-  const API_URL = '/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://invoice-backend-73fk.onrender.com/api';
 
   // Fetch initial data
   const fetchData = async () => {
