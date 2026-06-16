@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { 
   Plane, Upload, FileText, Layout, LogOut, Plus, Trash2, 
-  Edit3, Download, Eye, ChevronRight, CheckCircle, RefreshCw, AlertCircle, Save 
+  Edit3, Download, Eye, CheckCircle, RefreshCw, AlertCircle, Save 
 } from 'lucide-react';
 
 interface Invoice {
